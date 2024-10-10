@@ -7,7 +7,7 @@ This repository enables the generation of adversarial patches that remain effect
 
 [Hui Wei](https://weihui1308.github.io/)<sup>1</sup>, [Zhixiang Wang](https://lightchaserx.github.io/)<sup>2</sup>, [Kewei Zhang](https://scholar.google.com/citations?user=cFk7BcAAAAAJ&hl=en)<sup>1</sup>, [Jiaqi Hou]()<sup>1</sup>, [Yuanwei Liu]()<sup>1</sup>, [Hao Tang](https://ha0tang.github.io/)<sup>3</sup>, [Zheng Wang](https://wangzwhu.github.io/home/)<sup>1</sup>
 
-<sup>1</sup>Wuhan University&nbsp;&nbsp;<sup>2</sup>University of Tokyo&nbsp;&nbsp;<sup>3</sup>Peking University. 
+<sup>1</sup>Wuhan University,&nbsp;&nbsp;<sup>2</sup>University of Tokyo,&nbsp;&nbsp;<sup>3</sup>Peking University. 
 
 ### Update
 
