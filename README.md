@@ -26,6 +26,10 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
+Download the weight files:
+- Finetuned YOLOv5 model: [finetune_yolov5s_onINRIA.pt](https://github.com/weihui1308/CAP/tree/main/assets/checkpoints)
+- ISPNet model: [checkpoint_ISPNet.pth](https://drive.google.com/file/d/1k9g42kr67ygfGAaPcyl6cVLaYNM-l30q/view?usp=sharing)
+
 ### TODO
 
 - [ ] Code release
