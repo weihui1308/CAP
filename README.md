@@ -14,6 +14,18 @@ This repository enables the generation of adversarial patches that remain effect
 - **2024.10.10**: Repo is released.
 - **2024.09.26**: Paper is accepted to NeurIPS 2024.
 
+### :toolbox: Setup
+Clone this repo:
+```bash
+git clone https://github.com/weihui1308/CAP.git
+cd CAP
+```
+
+Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
 ### TODO
 
 - [ ] Code release
