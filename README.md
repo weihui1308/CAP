@@ -15,20 +15,23 @@ This repository enables the generation of adversarial patches that remain effect
 - **2024.09.26**: Paper is accepted to NeurIPS 2024.
 
 ### :toolbox: Setup
-Clone this repo:
+1. Clone this repo:
 ```bash
 git clone https://github.com/weihui1308/CAP.git
 cd CAP
 ```
 
-Install dependencies:
+2. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-Download the weight files:
+3. Download the weight files:
 - Finetuned YOLOv5 model: [finetune_yolov5s_onINRIA.pt](https://github.com/weihui1308/CAP/tree/main/assets/checkpoints)
-- ISPNet model: [checkpoint_ISPNet.pth](https://drive.google.com/file/d/1k9g42kr67ygfGAaPcyl6cVLaYNM-l30q/view?usp=sharing)
+- Camera ISP proxy network model: [checkpoint_ISPNet.pth](https://drive.google.com/file/d/1k9g42kr67ygfGAaPcyl6cVLaYNM-l30q/view?usp=sharing)
+
+### Training and Evaluation
+
 
 ### TODO
 
