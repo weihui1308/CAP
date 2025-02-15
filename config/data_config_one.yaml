@@ -1,0 +1,7 @@
+path: /home/xxx/INRIAPerson/
+train: images/train
+val: images/val
+
+# Classes
+nc: 1  # number of classes
+names: ['person']  # class names

@@ -94,7 +94,7 @@ def normalize(x, a, b, c, d):
 if __name__ == '__main__':
     os.makedirs(RESULTS_DIR, exist_ok=True)
     parser = argparse.ArgumentParser()
-    parser.add_argument('--data', type=str, default=ROOT / 'config/data_config.yaml', help='dataset.yaml path')
+    parser.add_argument('--data', type=str, default=ROOT / 'config/data_config_one.yaml', help='dataset.yaml path')
     parser.add_argument('--weights', nargs='+', type=str, default="finetune_yolov5s_onINRIA.pt", help='model path(s)')
     parser.add_argument('--cfg', type=str, default='yolov5/models/yolov5s.yaml', help='model.yaml')
     parser.add_argument('--hyp', type=str, default=ROOT / 'yolov5/data/hyps/hyp.scratch-low.yaml', help='hyperparameters path')
