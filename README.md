@@ -1,4 +1,4 @@
-## Revisiting Adversarial Patches for Designing Camera-Agnostic Attacks against Person Detection
+## Revisiting Adversarial Patches for Designing Camera-Agnostic Attacks against Person Detection (NeurIPS 2024)
 [Project](https://camera-agnostic.github.io/) | [Paper](https://nips.cc/virtual/2024/poster/96825)
 
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=weihui1308/CAP)
@@ -30,12 +30,11 @@ pip install -r requirements.txt
 - Finetuned YOLOv5 model: [finetune_yolov5s_onINRIA.pt](https://github.com/weihui1308/CAP/tree/main/assets/checkpoints)
 - Camera ISP proxy network model: [checkpoint_ISPNet.pth](https://drive.google.com/file/d/1k9g42kr67ygfGAaPcyl6cVLaYNM-l30q/view?usp=sharing)
 
-### Training and Evaluation
+### :rainbow: Training and Evaluation
+```bash
+git clone https://github.com/weihui1308/CAP.git
+```
 
-
-### TODO
-
-- [ ] Code release
 
 ## Citation
 
