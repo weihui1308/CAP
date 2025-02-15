@@ -31,12 +31,18 @@ pip install -r requirements.txt
 - Camera ISP proxy network model: [checkpoint_ISPNet.pth](https://drive.google.com/file/d/1k9g42kr67ygfGAaPcyl6cVLaYNM-l30q/view?usp=sharing)
 
 ### :rainbow: Training and Evaluation
+1. Optimize the adversarial patch:
 ```bash
-git clone https://github.com/weihui1308/CAP.git
+python train.py --data config/data_config.yaml --weights checkpoints/finetune_yolov5s_onINRIA.pt --batch_size 32 --epochs 1000
+```
+
+2. Evaluate a given adversarial patch:
+```bash
+python val.py --patch_name patch/onePatch.png
 ```
 
 
-## Citation
+### Citation
 
 If you find our work useful, please kindly cite as:
 ```
