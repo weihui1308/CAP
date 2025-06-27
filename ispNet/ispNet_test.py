@@ -83,12 +83,12 @@ if __name__ == '__main__':
         with open(param_path, 'r') as f:
             lines_ = f.readlines()
         param = [
-            normalize(float(lines_[0]), 0.4, 2, 0, 1),
-            normalize(float(lines_[1]), 768, 1280, 0, 1),
-            normalize(float(lines_[2]), 4.0, 20.0, 0, 1),
-            normalize(float(lines_[3]), 0.4, 1.6, 0, 1),
-            normalize(float(lines_[4]), 200, 600, 0, 1),
-            normalize(float(lines_[5]), 200, 600, 0, 1),
+            normalize(float(lines_[0]), 0.4, 2, 0, 1),    # gac.gamma
+            normalize(float(lines_[1]), 768, 1280, 0, 1),    # ccm
+            normalize(float(lines_[2]), 4.0, 20.0, 0, 1),    # nlm.h
+            normalize(float(lines_[3]), 0.4, 1.6, 0, 1),    # intensity_sigma and spatial_sigma
+            normalize(float(lines_[4]), 200, 600, 0, 1),    # saturation_gain
+            normalize(float(lines_[5]), 200, 600, 0, 1),    # contrast_gain
         ]
 
         param = torch.tensor(param)
