@@ -373,10 +373,6 @@ def main(opt):
     check_requirements(ROOT / 'requirements.txt', exclude=('tensorboard', 'thop'))
 
     if opt.task in ('train', 'val', 'test'):  # run normally
-        if opt.conf_thres > 0.001:  # https://github.com/ultralytics/yolov5/issues/1466
-            LOGGER.info(f'WARNING 鈿狅笍 confidence threshold {opt.conf_thres} > 0.001 produces invalid results')
-        if opt.save_hybrid:
-            LOGGER.info('WARNING 鈿狅笍 --save-hybrid will return high mAP from hybrid labels, not from predictions alone')
         run(**vars(opt))
 
     else:
@@ -407,3 +403,4 @@ def main(opt):
 if __name__ == '__main__':
     opt = parse_opt()
     main(opt)
+
